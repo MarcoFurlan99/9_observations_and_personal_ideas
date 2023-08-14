@@ -20,7 +20,7 @@ I was in the process of questioning this interpretation. Specifically:
 
 ## Why are we interpreting the tensors as probability distibutions?
 
-As a matter of facts, so far the two reasons I understood for such an interpretation are the following:
+As a matter of facts I have shaky reasons to justify this, the two main ones are the following:
 
-1. In [this paper](https://arxiv.org/pdf/1810.05148.pdf) they show that "Bayesian Deep Convolutional Networks [...] are Gaussian Processes". I'm still in the process to understand what a *Bayesian* DCN is and what a *Gaussian process* is. Furthermore they show that "the <ins>top-layer</ins> pre-activations [...] converge in distributionto an [...] normal vector [...] as $\min \lbrace n^1, ..., n^L \rbrace \xrightarrow[] \infty$
+1. In [this paper](https://arxiv.org/pdf/1810.05148.pdf) they show that "Bayesian Deep Convolutional Networks [...] are Gaussian Processes". I'm still in the process to understand what a *Bayesian* DCN is and what a *Gaussian process* is. Furthermore they show that "the <ins>top-layer</ins> pre-activations [...] converge in distribution to a [...] normal vector [...] <ins> as $\min \lbrace n^1, ..., n^L \rbrace \xrightarrow[]{} \infty$ <ins>
 
