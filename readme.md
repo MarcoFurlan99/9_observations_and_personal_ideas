@@ -22,5 +22,5 @@ I was in the process of questioning this interpretation. Specifically:
 
 As a matter of facts I have shaky reasons to justify this, the two main ones are the following:
 
-1. In [this paper](https://arxiv.org/pdf/1810.05148.pdf) they show that "Bayesian Deep Convolutional Networks [...] are Gaussian Processes". I'm still in the process to understand what a *Bayesian* DCN is and what a *Gaussian process* is. Furthermore they show that "the <ins>top-layer</ins> pre-activations [...] converge in distribution to a [...] normal vector [...] <ins> as <ins>$\underline{\min \lbrace n^1, ..., n^L \rbrace \xrightarrow[]{} \infty}$.
+1. In [this paper](https://arxiv.org/pdf/1810.05148.pdf) they show that "Bayesian Deep Convolutional Networks [...] are Gaussian Processes". I'm still in the process to understand what a *Bayesian* DCN is and what a *Gaussian process* is. Furthermore they show that "the <ins>top-layer</ins> pre-activations [...] converge in distribution to a [...] normal vector [...] <ins> as </ins>$\underline{\min \lbrace n^1, ..., n^L \rbrace \xrightarrow[]{} \infty}$.
 
