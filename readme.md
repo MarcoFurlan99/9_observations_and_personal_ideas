@@ -28,7 +28,7 @@ As a matter of facts I have shaky reasons to justify this, the two main ones are
 
 ## Why specifically interpreting them as $4 \times 4 \times N_{Img}$ samples in a 1024-dimensional space?
 
-This is a very delicate point because I'm pretty sure it's just a completely wrong approach. In fact, **we should interpret the tensor as a 4x4-dimensional probability distribution, with $1024 \times N_{Img}$ samples**. Here are the reasons for this:
+This is a very delicate point because I'm pretty sure it's just a wrong approach. In fact, **we should interpret the tensor as a 4x4-dimensional probability distribution, with $1024 \times N_{Img}$ samples**. Here are the reasons for this:
 
 - When we compute the FID between images, <ins>as far as my understanding goes</ins>(based on [this](https://wandb.ai/ayush-thakur/gan-evaluation/reports/How-to-Evaluate-GANs-using-Frechet-Inception-Distance-FID---Vmlldzo0MTAxOTI)), we are computing mean and variance on the [???]
 
